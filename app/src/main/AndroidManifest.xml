@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.apps.ahmed.emad.dry.clean">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activites.activites.afterHome.SelectedDryCleanActivity"
+            android:parentActivityName=".activites.activites.afterHome.HomeActivity"></activity>
+        <activity
+            android:name=".activites.activites.afterHome.FormActivity"
+            android:parentActivityName=".activites.activites.afterHome.SelectedDryCleanActivity" />
+        <activity android:name=".activites.activites.afterHome.MyOrdersActivity" />
+        <activity
+            android:name=".activites.activites.afterHome.NotificationsActivity"
+            android:parentActivityName=".activites.activites.afterHome.HomeActivity"></activity>
+        <activity android:name=".activites.activites.afterHome.LocationActivity" />
+        <activity android:name=".activites.activites.relatedToSettings.ContactUsActivity" />
+        <activity android:name=".activites.activites.relatedToSettings.AboutUsActivity" />
+        <activity
+            android:name=".activites.activites.relatedToSettings.CompliantAndSuggestionsActivity"
+            android:parentActivityName=".activites.activites.relatedToSettings.SettingsActivity" />
+        <activity
+            android:name=".activites.activites.relatedToSettings.EditProfileActivity"
+            android:parentActivityName=".activites.activites.afterHome.HomeActivity" />
+        <activity android:name=".activites.activites.relatedToSettings.ProfileActivity" />
+        <activity
+            android:name=".activites.activites.relatedToSettings.SettingsActivity"
+            android:parentActivityName=".activites.activites.afterHome.HomeActivity" />
+        <activity
+            android:name=".activites.activites.beforeHome.ChangePasswordActivity"
+            android:parentActivityName=".activites.activites.relatedToSettings.SettingsActivity" />
+        <activity android:name=".activites.activites.beforeHome.VerficationActivity" />
+        <activity
+            android:name=".activites.activites.relatedToSettings.ForgetPasswordActivity"
+            android:parentActivityName=".activites.activites.beforeHome.SignInActivity" />
+        <activity
+            android:name=".activites.activites.beforeHome.SignUpActivity"
+            android:parentActivityName=".activites.activites.beforeHome.SignInActivity" />
+        <activity android:name=".activites.activites.beforeHome.SignInActivity" />
+        <activity android:name=".activites.activites.beforeHome.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activites.activites.afterHome.HomeActivity" />
+    </application>
+
+</manifest>

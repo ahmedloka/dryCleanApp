@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9CFF6"
+    tools:context=".activites.activites.beforeHome.SignUpActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dry_clean_logo" />
+
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/username"
+                android:inputType="text"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/border_edit_text"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_4sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+                android:id="@+id/btn_register"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/shape_btn"
+                android:gravity="center"
+                android:text="@string/sign_up"
+                android:textColor="@color/whitee"
+                android:textSize="@dimen/_12ssp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

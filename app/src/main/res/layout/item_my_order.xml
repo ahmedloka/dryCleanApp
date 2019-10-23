@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_7sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_test_two" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Dry clean Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:id="@+id/txt_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="4 May 2019 16:04"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:id="@+id/txt_order_num"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Order ID:14256"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_10ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+            android:id="@+id/btn_status"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_btn_accepted"
+            android:gravity="center"
+            android:text="@string/accepted"
+            android:textColor="@color/whitee"
+            android:textSize="@dimen/_11ssp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/seperator" />
+</androidx.appcompat.widget.LinearLayoutCompat>

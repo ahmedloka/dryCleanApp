@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:src="@drawable/test" />
+
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:gravity="start|center"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_14ssp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/seperator"
+        android:layout_marginTop="@dimen/_10sdp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

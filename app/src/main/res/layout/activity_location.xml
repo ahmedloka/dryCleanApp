@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.activites.afterHome.LocationActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/map_bg" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:src="#5F0656" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_loc_map" />
+    </FrameLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18ssp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/whitee"
+            android:text="@string/to_get_started"/>
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:textColor="@color/whitee"
+            android:text="@string/or_let_us"/>
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:drawablePadding="@dimen/_10sdp"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:drawableStart="@drawable/ic_my_location"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/whitee"
+            android:text="@string/locate_auto"/>
+
+        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:textColor="@color/whitee"
+            android:text="@string/or_see_all"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

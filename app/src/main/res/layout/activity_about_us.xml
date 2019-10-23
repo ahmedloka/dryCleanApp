@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.activites.relatedToSettings.AboutUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/_6sdp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/arrow_back_page_two"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="0dp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/back" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_toEndOf="@id/arrow_back_page_two"
+                android:gravity="center"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="30"
+                android:text="@string/about_us"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14ssp">
+
+                <requestFocus />
+            </my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView>
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/about_us_bg" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#F9CFF6" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:fillViewport="true"
+        android:padding="@dimen/_15sdp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="center|start"
+                android:text="@string/out_vision"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_18ssp" />
+
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="start|center"
+                android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna amagna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sua commodo consequat. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="center|start"
+                android:text="@string/our_mission"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_18ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="start|center"
+                android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna amagna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sua commodo consequat. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14ssp" />
+
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="center|start"
+                android:text="@string/out_values"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_18ssp" />
+
+            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="start|center"
+                android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna amagna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sua commodo consequat. "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

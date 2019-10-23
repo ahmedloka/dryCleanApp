@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#F9CFF6"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="@dimen/_3sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_cover"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_test_two" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35"
+            android:orientation="horizontal"
+            android:padding="@dimen/_7sdp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:src="@drawable/test" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center|start"
+                    android:text="Shop Name"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14ssp" />
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center|start"
+                    android:text="Shop Location"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_14ssp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

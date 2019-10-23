@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.activites.afterHome.SelectedDryCleanActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/_6sdp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/arrow_back_page_two"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="0dp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/back" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_toEndOf="@id/arrow_back_page_two">
+
+                <requestFocus />
+            </Space>
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/frame_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_185sdp"
+                android:layout_marginBottom="@dimen/_20sdp">
+
+                <!--<include-->
+                <!--android:id="@+id/layout_video"-->
+                <!--layout="@layout/activity_video_restuarant"-->
+                <!--android:visibility="visible" />-->
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.ViewPagerCustomDuration
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    app:tabBackground="@drawable/indicator_selector"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+
+            </FrameLayout>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp">
+
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:drawableStart="@drawable/ic_about"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:text="@string/about"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_13ssp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/expandable_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_4sdp"
+                android:visibility="visible">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:background="#eeeeee" />
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:id="@+id/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_mail"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:text="ahmed14.emad12@gmail.com"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10ssp" />
+
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_loc"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:maxLines="3"
+                    android:text="Haram , Giza"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10ssp" />
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:id="@+id/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:text="01146498407"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10ssp" />
+
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_clock"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:text="12:00 am - 12:00 pm"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10ssp" />
+
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_description"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="start|center|top"
+                    android:maxLines="3"
+                    android:text="Desc here Desc here Desc here Desc here Desc here Desc here Desc here Desc hereDesc here Desc here Desc here Desc here Desc here Desc here Desc here Desc here"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10ssp" />
+
+
+                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+                    android:id="@+id/btn_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="@string/order_now"
+                    android:textColor="@color/whitee"
+                    android:textSize="@dimen/_14ssp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
