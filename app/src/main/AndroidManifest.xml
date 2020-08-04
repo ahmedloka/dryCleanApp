@@ -21,14 +21,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.SelectedDryCleanActivity"
-            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity"></activity>
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity" />
         <activity
             android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.FormActivity"
             android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.SelectedDryCleanActivity" />
         <activity android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.MyOrdersActivity" />
         <activity
             android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.NotificationsActivity"
-            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity"></activity>
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity" />
         <activity android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.LocationActivity" />
         <activity android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.ContactUsActivity" />
         <activity android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.AboutUsActivity" />
