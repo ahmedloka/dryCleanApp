@@ -36,7 +36,7 @@
                         app:civ_border_color="#F9CFF6"
                         app:civ_border_width="@dimen/_3sdp" />
 
-                    <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_22sdp"
                         android:layout_gravity="bottom"
@@ -65,7 +65,7 @@
                 android:paddingEnd="@dimen/_30sdp">
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -75,7 +75,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -93,7 +93,7 @@
                     android:textColorLink="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -106,7 +106,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -124,7 +124,7 @@
                     android:textColorLink="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -136,7 +136,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -155,7 +155,7 @@
                     android:textSize="@dimen/_12ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -167,7 +167,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -186,7 +186,7 @@
                     android:textSize="@dimen/_12ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
                     android:layout_width="@dimen/_100sdp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

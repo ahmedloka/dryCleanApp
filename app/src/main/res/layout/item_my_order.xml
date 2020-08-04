@@ -26,7 +26,7 @@
             android:layout_marginEnd="@dimen/_10sdp"
             android:orientation="vertical">
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:id="@+id/txt_name"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -35,7 +35,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_10ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:id="@+id/txt_date"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -44,7 +44,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_10ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:id="@+id/txt_order_num"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -55,7 +55,7 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+        <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
             android:id="@+id/btn_status"
             android:layout_width="@dimen/_70sdp"
             android:layout_height="@dimen/_25sdp"

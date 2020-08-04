@@ -24,7 +24,7 @@
                 android:src="@drawable/dry_clean_logo" />
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:id="@+id/user_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:id="@+id/txt_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
                 android:id="@+id/btn_sign_in"
                 android:layout_width="@dimen/_100sdp"
                 android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                 android:textColor="@color/whitee"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:id="@+id/txt_forgot_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -92,7 +92,7 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_14ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:id="@+id/txt_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

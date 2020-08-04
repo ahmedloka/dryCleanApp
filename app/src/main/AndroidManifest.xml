@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="my.apps.ahmed.emad.dry.clean">
+    package="my.apps.nada.project.dry.clean">
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -10,40 +20,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activites.activites.afterHome.SelectedDryCleanActivity"
-            android:parentActivityName=".activites.activites.afterHome.HomeActivity"></activity>
+            android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.SelectedDryCleanActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity"></activity>
         <activity
-            android:name=".activites.activites.afterHome.FormActivity"
-            android:parentActivityName=".activites.activites.afterHome.SelectedDryCleanActivity" />
-        <activity android:name=".activites.activites.afterHome.MyOrdersActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.FormActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.SelectedDryCleanActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.MyOrdersActivity" />
         <activity
-            android:name=".activites.activites.afterHome.NotificationsActivity"
-            android:parentActivityName=".activites.activites.afterHome.HomeActivity"></activity>
-        <activity android:name=".activites.activites.afterHome.LocationActivity" />
-        <activity android:name=".activites.activites.relatedToSettings.ContactUsActivity" />
-        <activity android:name=".activites.activites.relatedToSettings.AboutUsActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.NotificationsActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity"></activity>
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.LocationActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.ContactUsActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.AboutUsActivity" />
         <activity
-            android:name=".activites.activites.relatedToSettings.CompliantAndSuggestionsActivity"
-            android:parentActivityName=".activites.activites.relatedToSettings.SettingsActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.CompliantAndSuggestionsActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.SettingsActivity" />
         <activity
-            android:name=".activites.activites.relatedToSettings.EditProfileActivity"
-            android:parentActivityName=".activites.activites.afterHome.HomeActivity" />
-        <activity android:name=".activites.activites.relatedToSettings.ProfileActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.EditProfileActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.ProfileActivity" />
         <activity
-            android:name=".activites.activites.relatedToSettings.SettingsActivity"
-            android:parentActivityName=".activites.activites.afterHome.HomeActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.SettingsActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity" />
         <activity
-            android:name=".activites.activites.beforeHome.ChangePasswordActivity"
-            android:parentActivityName=".activites.activites.relatedToSettings.SettingsActivity" />
-        <activity android:name=".activites.activites.beforeHome.VerficationActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.beforeHome.ChangePasswordActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.SettingsActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.beforeHome.VerficationActivity" />
         <activity
-            android:name=".activites.activites.relatedToSettings.ForgetPasswordActivity"
-            android:parentActivityName=".activites.activites.beforeHome.SignInActivity" />
+            android:name="my.apps.nada.project.dry.clean.activites.activites.relatedToSettings.ForgetPasswordActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.beforeHome.SignInActivity" />
         <activity
-            android:name=".activites.activites.beforeHome.SignUpActivity"
-            android:parentActivityName=".activites.activites.beforeHome.SignInActivity" />
-        <activity android:name=".activites.activites.beforeHome.SignInActivity" />
-        <activity android:name=".activites.activites.beforeHome.SplashActivity">
+            android:name="my.apps.nada.project.dry.clean.activites.activites.beforeHome.SignUpActivity"
+            android:parentActivityName="my.apps.nada.project.dry.clean.activites.activites.beforeHome.SignInActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.beforeHome.SignInActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.beforeHome.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +62,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".activites.activites.afterHome.HomeActivity" />
+        <activity android:name="my.apps.nada.project.dry.clean.activites.activites.afterHome.HomeActivity" />
     </application>
 
 </manifest>

@@ -34,7 +34,7 @@
                 android:padding="@dimen/_8sdp"
                 android:src="@drawable/back" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/_5sdp"
@@ -49,7 +49,7 @@
                 android:textSize="@dimen/_14ssp">
 
                 <requestFocus />
-            </my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView>
+            </my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView>
 
 
         </RelativeLayout>
@@ -81,7 +81,7 @@
                 android:orientation="vertical"
                 android:padding="@dimen/_15sdp">
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -90,7 +90,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_14ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|start"
@@ -107,7 +107,7 @@
                     android:textSize="@dimen/_12ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_gravity="center"

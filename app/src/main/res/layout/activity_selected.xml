@@ -72,7 +72,7 @@
                 <!--layout="@layout/activity_video_restuarant"-->
                 <!--android:visibility="visible" />-->
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.ViewPagerCustomDuration
+                <my.apps.nada.project.dry.clean.activites.utilites.ViewPagerCustomDuration
                     android:id="@+id/viewPager"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
@@ -95,7 +95,7 @@
                 android:padding="@dimen/_4sdp">
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="80"
@@ -125,7 +125,7 @@
                     android:layout_marginBottom="@dimen/_7sdp"
                     android:background="#eeeeee" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:id="@+id/type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,12 +134,12 @@
                     android:drawableStart="@drawable/ic_mail"
                     android:drawablePadding="@dimen/_10sdp"
                     android:gravity="start|center|top"
-                    android:text="ahmed14.emad12@gmail.com"
+                    android:text="nada@gmail.com"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_10ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:id="@+id/address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -149,11 +149,11 @@
                     android:drawablePadding="@dimen/_10sdp"
                     android:gravity="start|center|top"
                     android:maxLines="3"
-                    android:text="Haram , Giza"
+                    android:text="kuwait"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_10ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:id="@+id/mail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -162,12 +162,12 @@
                     android:drawableStart="@drawable/ic_phone"
                     android:drawablePadding="@dimen/_10sdp"
                     android:gravity="start|center|top"
-                    android:text="01146498407"
+                    android:text="9799 2113"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_10ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:id="@+id/time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
                     android:textSize="@dimen/_10ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                     android:id="@+id/desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                     android:textSize="@dimen/_10ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
                     android:id="@+id/btn_order"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

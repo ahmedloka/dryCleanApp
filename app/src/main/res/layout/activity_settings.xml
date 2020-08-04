@@ -34,7 +34,7 @@
                 android:padding="@dimen/_8sdp"
                 android:src="@drawable/back" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/_5sdp"
@@ -49,7 +49,7 @@
                 android:textSize="@dimen/_14ssp">
 
                 <requestFocus />
-            </my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView>
+            </my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView>
 
 
         </RelativeLayout>
@@ -66,7 +66,7 @@
             android:orientation="vertical">
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:id="@+id/change_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:layout_marginBottom="@dimen/_15sdp"
                 android:background="#CDC9C0" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:id="@+id/change_lang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_marginBottom="@dimen/_15sdp"
                 android:background="#CDC9C0" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:id="@+id/terms_and"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

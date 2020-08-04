@@ -21,7 +21,7 @@
             android:src="@drawable/test" />
 
 
-        <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+        <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
             android:id="@+id/txt_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

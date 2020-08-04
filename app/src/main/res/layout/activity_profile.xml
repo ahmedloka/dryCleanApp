@@ -37,7 +37,7 @@
                         app:civ_border_color="#F9CFF6"
                         app:civ_border_width="@dimen/_3sdp" />
 
-                    <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+                    <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_22sdp"
                         android:layout_gravity="bottom"
@@ -65,7 +65,7 @@
                 android:padding="@dimen/_30sdp">
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -76,16 +76,16 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:gravity="center|start"
-                    android:text="user name"
+                    android:text="nada"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -97,16 +97,16 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:gravity="center|start"
-                    android:text="user_name@gmail.com"
+                    android:text="nada@gmail.com"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -118,17 +118,17 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:gravity="center|start"
-                    android:text="Haram , Giza , Egypt"
+                    android:text="kuwait"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
@@ -140,12 +140,12 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_13ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:gravity="center|start"
-                    android:text="01146498407"
+                    android:text="9799 2113"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_12ssp" />
 

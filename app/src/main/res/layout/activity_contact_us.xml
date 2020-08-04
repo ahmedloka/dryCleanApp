@@ -34,7 +34,7 @@
                 android:padding="@dimen/_8sdp"
                 android:src="@drawable/back" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/_5sdp"
@@ -49,7 +49,7 @@
                 android:textSize="@dimen/_14ssp">
 
                 <requestFocus />
-            </my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView>
+            </my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView>
 
 
         </RelativeLayout>
@@ -83,37 +83,37 @@
             android:padding="@dimen/_20sdp">
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:drawableStart="@drawable/ic_locationn"
                 android:drawablePadding="@dimen/_15sdp"
                 android:gravity="start|center"
-                android:text="Haram , Giza , Egypt"
+                android:text="Kuwait"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_14ssp" />
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:drawableStart="@drawable/ic_maill"
                 android:drawablePadding="@dimen/_15sdp"
                 android:gravity="start|center"
-                android:text="ahmed14.emad12@gmail.com"
+                android:text="nada@gmail.com"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_14ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:drawableStart="@drawable/ic_phonee"
                 android:drawablePadding="@dimen/_15sdp"
                 android:gravity="start|center"
-                android:text="201146498407"
+                android:text="9799 2113"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="@dimen/_14ssp" />
 
@@ -156,7 +156,7 @@
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoRegularTextView
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoRegularTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start|center"

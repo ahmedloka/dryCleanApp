@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,7 +25,7 @@
                 android:src="@drawable/dry_clean_logo" />
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -42,7 +41,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -58,7 +57,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -75,7 +74,7 @@
                 android:textSize="@dimen/_12ssp" />
 
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -91,7 +90,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -107,7 +106,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldEditText
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_50sdp"
@@ -124,7 +123,7 @@
                 android:textColorHint="@color/colorPrimaryDark"
                 android:textSize="@dimen/_12ssp" />
 
-            <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldButton
+            <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldButton
                 android:id="@+id/btn_register"
                 android:layout_width="@dimen/_100sdp"
                 android:layout_height="wrap_content"

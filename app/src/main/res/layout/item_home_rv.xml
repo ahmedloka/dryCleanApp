@@ -42,7 +42,7 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:orientation="vertical">
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -52,7 +52,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_14ssp" />
 
-                <my.apps.ahmed.emad.dry.clean.activites.utilites.CairoBoldTextView
+                <my.apps.nada.project.dry.clean.activites.utilites.CairoBoldTextView
                     android:id="@+id/location"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
